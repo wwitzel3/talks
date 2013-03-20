@@ -13,7 +13,7 @@ We only support SVN/CVS
 -----------------------
 
 
-.. image:: cvs.png
+.. image:: images/cvs.png
 
 - Full Git and Mercurial support.
 
@@ -22,7 +22,7 @@ We only support SVN/CVS
 The site is nothing but ads
 ---------------------------
 
-.. image:: ads.png
+.. image:: images/ads.png
 
 - We don't show ads to logged in users.
 
@@ -44,7 +44,7 @@ File Download/Upload limits
 
 - There are no download bandwidth restrictions of limits.
 
-.. image:: obama.png
+.. image:: images/obama.png
 
 It's old and unmaintained
 -------------------------
