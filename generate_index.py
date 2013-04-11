@@ -7,10 +7,11 @@ def main(args):
     files = glob.glob('*.html')
 
     with open(output_file, 'w') as fp:
+        fp.write('<ul>\n')
         for f in files:
             if f != output_file:
-                fp.write('<a href="%s">%s</a>\n' % (f, f))
-
+                fp.write('<li><a href="%s">%s</a></li>\n' % (f, f))
+        fp.write('</ul>\n')
 
 if __name__ == '__main__':
     import sys
