@@ -7,7 +7,7 @@ def main(args):
     files = glob.glob('*.html')
 
     with open(output_file, 'w') as fp:
-        fp.write('<ul>\n')
+        fp.write('<ul>')
         for f in files:
             if f != output_file:
                 fp.write('<li><a href="%s">%s</a></li>\n' % (f, f))
